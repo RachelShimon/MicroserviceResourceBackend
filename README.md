@@ -28,7 +28,6 @@ The project consists of the following components:
 ### Clone the Repository
   ```sh
    git clone https://github.com/RachelShimon/MicroserviceResourceBackend.git
-   cd microservice-resource-graph/backend
    ```
 
 ### Build and Run the Project
