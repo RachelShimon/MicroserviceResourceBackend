@@ -4,6 +4,7 @@ import checkmarx.microserviceresourcebackend.models.Resource;
 import checkmarx.microserviceresourcebackend.services.IMicroservicesService;
 import checkmarx.microserviceresourcebackend.services.IResourceService;
 import lombok.AllArgsConstructor;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,6 +13,7 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api")
 public class ResourceController {
 
